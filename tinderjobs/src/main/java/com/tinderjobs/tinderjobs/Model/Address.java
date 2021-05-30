@@ -1,5 +1,7 @@
 package com.tinderjobs.tinderjobs.Model;
+
 // comentario para testes
+//aqui estava normal
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
