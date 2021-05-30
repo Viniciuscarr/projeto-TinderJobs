@@ -1,5 +1,8 @@
 package com.tinderjobs.tinderjobs.Model;
+
+// comentario para testes
 //aqui estava normal
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -20,9 +23,9 @@ public class Address {
     private String cidade;
     private String estado;
     
-    public Address(int id, String cEP, String numeroCasa, String rua, String bairro, String cidade, String estado) {
+    public Address(int id, String cep, String numeroCasa, String rua, String bairro, String cidade, String estado) {
         this.id = id;
-        CEP = cEP;
+        CEP = cep;
         this.numeroCasa = numeroCasa;
         this.rua = rua;
         this.bairro = bairro;
@@ -42,8 +45,8 @@ public class Address {
         return CEP;
     }
 
-    public void setCEP(String cEP) {
-        CEP = cEP;
+    public void setCEP(String cep) {
+        CEP = cep;
     }
 
     public String getNumeroCasa() {
@@ -85,7 +88,4 @@ public class Address {
     public void setEstado(String estado) {
         this.estado = estado;
     }
-
-    
-    
 }
