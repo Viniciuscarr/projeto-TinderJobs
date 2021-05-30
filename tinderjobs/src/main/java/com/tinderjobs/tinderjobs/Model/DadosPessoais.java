@@ -1,5 +1,5 @@
 package com.tinderjobs.tinderjobs.Model;
-
+//Comentario para testar dados pessoais
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -22,13 +22,13 @@ public class DadosPessoais {
     private String CPF;
     private String senha;
 
-    public DadosPessoais(int id, String nome, char sexo, String telefone, String email, String cPF, String senha) {
+    public DadosPessoais(int id, String nome, char sexo, String telefone, String email, String cpf, String senha) {
         this.id = id;
         this.nome = nome;
         this.sexo = sexo;
         this.telefone = telefone;
         this.email = email;
-        CPF = cPF;
+        CPF = cpf;
         this.senha = senha;
     }
 
@@ -77,7 +77,7 @@ public class DadosPessoais {
     }
 
     public void setCPF(String cPF) {
-        CPF = cPF;
+        CPF = cpf;
     }
 
     public String getSenha() {
