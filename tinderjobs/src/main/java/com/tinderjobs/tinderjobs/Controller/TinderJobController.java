@@ -3,7 +3,7 @@ package com.tinderjobs.tinderjobs.Controller;
 import java.util.List;
 
 import com.tinderjobs.tinderjobs.InterfaceService.TinderJobInterfServ;
-import com.tinderjobs.tinderjobs.Model.Professional;
+import com.tinderjobs.tinderjobs.Model.DadosPessoais;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -20,10 +20,9 @@ public class TinderJobController {
 
     @GetMapping("/listar")
     public String listar(Model model){
-        List<Professional> profissionais = service.listar();
+        List<DadosPessoais> profissionais = service.listar();
         model.addAttribute("profissionais", profissionais);
         return "index";
     }
-
     
 }
