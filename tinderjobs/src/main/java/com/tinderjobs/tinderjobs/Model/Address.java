@@ -1,5 +1,5 @@
 package com.tinderjobs.tinderjobs.Model;
-/*testanto e mostrando o commit*/
+
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
