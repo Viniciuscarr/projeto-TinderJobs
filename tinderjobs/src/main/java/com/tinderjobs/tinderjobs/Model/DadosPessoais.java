@@ -76,7 +76,7 @@ public class DadosPessoais {
         return CPF;
     }
 
-    public void setCPF(String cPF) {
+    public void setCPF(String cpf) {
         CPF = cpf;
     }
 
