@@ -1,6 +1,5 @@
 package com.tinderjobs.tinderjobs.Model;
 
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
