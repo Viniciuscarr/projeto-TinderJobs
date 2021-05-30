@@ -1,5 +1,5 @@
 package com.tinderjobs.tinderjobs.Model;
-
+//aqui estava normal
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
