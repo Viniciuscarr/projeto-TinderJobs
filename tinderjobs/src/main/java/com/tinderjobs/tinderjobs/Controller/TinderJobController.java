@@ -24,5 +24,5 @@ public class TinderJobController {
         model.addAttribute("profissionais", profissionais);
         return "index";
     }
-    
+
 }
