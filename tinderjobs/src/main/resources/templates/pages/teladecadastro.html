@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilizacaotelacadastro.css" />
+    <title>Cadastro</title>
+</head>
+
+<body class="gradient">
+    <div class="container">
+        <div title="Dados Pessoais">
+            <h2 class="text">Dados Pessoais</h2>
+            <table class="dadospessoais" title="Dados Pessoais" cellspacing="5">
+                <tr colspan=12>
+                    <td>
+                        <label for="nome">Nome: </label>
+                        <input type="text" id="nome" placeholder="Digite seu nome" />
+                    </td>
+                    <td>
+                        <label for="nome">CPF: </label>
+                        <input type="text" id="nome" placeholder="informe o número do seu cpf" />
+                    </td>
+                    <td><!-- inserir uma opção para selecionar a data, atraves de um calendario-->
+                        <label for="nome">Data de Nascimento: </label>
+                        <input type="text" id="nome" placeholder="informe o número do seu cpf"/>                        
+                    </td>
+                    <td>
+                        <label for="Genero">Gênero:</label><br/>
+                    <input type="text" list="genero" id="Genero" name="Genero" placeholder="Escolha uma opção">
+                    <datalist id="genero">
+                        <option value="Internet Explorer">
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                    </datalist>                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nome">Telefone1: </label>
+                        <input type="text" id="nome" placeholder="Insira um telefone valido" />                        
+                    </td>
+                    <td>
+                        <label for="nome">Telefone2: </label>
+                        <input type="text" id="nome" placeholder="Caso necessário informe mais um telefone" />                        
+                    </td>
+                    <td>
+                        <label for="nome">Email: </label>
+                        <input type="text" id="nome" placeholder="Insira um email válido" />                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nome">Username: </label>
+                        <input type="text" id="nome" placeholder="Insira um email válido" />                        
+                    </td>
+                    <td>
+                        <label for="nome">Senha: </label>
+                        <input type="password" id="nome" placeholder="Insira um email válido" />                        
+                    </td>
+                    <td>
+                        <label for="nome">Repita a senha: </label>
+                        <input type="password" id="nome" placeholder="Insira um email válido" />                        
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div title="endereco">
+            <h2 class="text">Endereço</h2>
+            <table class="endereco" title="endereco" cellspacing="5">
+                <tr>
+                    <td><!-- Tentar validar cep e puxar o endereço atraves desse campo-->
+                        <label for="nome">CEP: </label>
+                        <input type="text" id="nome" placeholder="Escolha opções" />                        
+                    </td>
+                    <td>
+                        <label for="nome">AV/Travessa/Rua: </label>
+                        <input type="text" id="nome" placeholder="Digite seu nome" />
+                    </td>
+                    <td>
+                        <label for="nome">Nº da residência: </label>
+                        <input type="text" id="nome" placeholder="informe o número do seu cpf" />
+                    </td>
+                    <td>
+                        <label for="nome">Complemento: </label>
+                        <input type="text" id="nome" placeholder="informe o número do seu cpf" />
+                    </td> 
+                    <tr>
+                        <td><!-- inserir uma opção para selecionar a data, atraves de um calendario-->
+                            <label for="nome">Bairro: </label>
+                            <input type="text" id="nome" placeholder="informe o número do seu cpf"/>                        
+                        </td>
+                        <td><!-- será um menu suspenso-->
+                            <label for="nome">Cidade: </label>
+                            <input type="text" id="nome" placeholder="Escolha opções" />                        
+                        </td>
+                        <td><!-- será um menu suspenso-->
+                            <label for="nome">Estado: </label>
+                            <input type="text" id="nome" placeholder="Escolha opções" />                        
+                        </td>
+                    </tr>                 
+                    
+                </tr>
+            </table>
+        </div>
+        <div class="center">
+            <button>SALVAR</button>
+        </div>
+    </div>
+</body>
+
+</html>
